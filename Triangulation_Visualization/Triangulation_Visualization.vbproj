@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9715BF13-0E2D-4F09-8572-A02D93A0ACB3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Triangulation_Visualization.My.MyApplication</StartupObject>
+    <RootNamespace>Triangulation_Visualization</RootNamespace>
+    <AssemblyName>Triangulation_Visualization</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Triangulation_Visualization.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Triangulation_Visualization.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DotSpatial.Analysis">
+      <HintPath>..\..\dotSpatial\dotSpatial_v1.3\Extended\DotSpatial.Analysis.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Compatibility">
+      <HintPath>..\..\dotSpatial\dotSpatial_v1.3\Extended\DotSpatial.Compatibility.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Controls">
+      <HintPath>..\..\dotSpatial\dotSpatial_v1.3\Extended\DotSpatial.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Data">
+      <HintPath>..\..\dotSpatial\dotSpatial_v1.3\Extended\DotSpatial.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Data.Forms">
+      <HintPath>..\..\dotSpatial\dotSpatial_v1.3\Extended\DotSpatial.Data.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Extensions">
+      <HintPath>..\..\dotSpatial\dotSpatial_v1.3\Extended\DotSpatial.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Modeling.Forms">
+      <HintPath>..\..\dotSpatial\dotSpatial_v1.3\Extended\DotSpatial.Modeling.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Positioning">
+      <HintPath>..\..\dotSpatial\dotSpatial_v1.3\Extended\DotSpatial.Positioning.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Positioning.Design">
+      <HintPath>..\..\dotSpatial\dotSpatial_v1.3\Extended\DotSpatial.Positioning.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Positioning.Forms">
+      <HintPath>..\..\dotSpatial\dotSpatial_v1.3\Extended\DotSpatial.Positioning.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Projections">
+      <HintPath>..\..\dotSpatial\dotSpatial_v1.3\Extended\DotSpatial.Projections.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Projections.Forms">
+      <HintPath>..\..\dotSpatial\dotSpatial_v1.3\Extended\DotSpatial.Projections.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Serialization">
+      <HintPath>..\..\dotSpatial\dotSpatial_v1.3\Extended\DotSpatial.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Symbology">
+      <HintPath>..\..\dotSpatial\dotSpatial_v1.3\Extended\DotSpatial.Symbology.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Symbology.Forms">
+      <HintPath>..\..\dotSpatial\dotSpatial_v1.3\Extended\DotSpatial.Symbology.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Topology">
+      <HintPath>..\..\DotSpatial\DotSpatial.Topology.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmLoadPopPolys.Designer.vb">
+      <DependentUpon>frmLoadPopPolys.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLoadPopPolys.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLoadSessionDialog.Designer.vb">
+      <DependentUpon>frmLoadSessionDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLoadSessionDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLoadData.Designer.vb">
+      <DependentUpon>frmLoadData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLoadData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTransformPreamble.Designer.vb">
+      <DependentUpon>frmTransformPreamble.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTransformPreamble.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTriangleCartograms.Designer.vb">
+      <DependentUpon>frmTriangleCartograms.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTriangleCartograms.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="TestModule.vb" />
+    <Compile Include="Transformation.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmLoadData.resx">
+      <DependentUpon>frmLoadData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLoadPopPolys.resx">
+      <DependentUpon>frmLoadPopPolys.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLoadSessionDialog.resx">
+      <DependentUpon>frmLoadSessionDialog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTransformPreamble.resx">
+      <DependentUpon>frmTransformPreamble.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTriangleCartograms.resx">
+      <DependentUpon>frmTriangleCartograms.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DCEL\DCEL.vbproj">
+      <Project>{D2F9379A-92C3-407C-8E8A-CA7A58A85023}</Project>
+      <Name>DCEL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SDS Objects\BK_Utils.vbproj">
+      <Project>{AED72AFF-F621-4346-9EA3-6F4D437F3A5F}</Project>
+      <Name>BK_Utils</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TwoDTree\SpatialIndexing.vbproj">
+      <Project>{40BEFAF4-BFA4-46AB-A401-C1388D582B9F}</Project>
+      <Name>SpatialIndexing</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoomIn.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoom_in_tool_1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1334456289_buttons_21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1334456369_buttons_19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoomOut.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_ArcMap.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CursorArrow.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CursorArrow_small.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Actions-go-previous-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Actions-go-previous-icon_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Actions-go-next-icon_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\informationb32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\World32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Actions-zoom-in-icon48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Actions-zoom-out-icon32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MapLayers_nonCommercial.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hand32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addLayer.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clearSelection.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fixedZoomIn.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\movePoint.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rectangleTransform.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\selectPoint.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\selectRectangle.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\update.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoomIn.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoomToWorld.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fixedZoomOut.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fixedZoomOut2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TriangleSubdivision2_small.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\line_move_big.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SelectEdge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Regularize_Grid.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iron.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

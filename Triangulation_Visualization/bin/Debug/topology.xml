@@ -1,0 +1,43 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+topology
+</name>
+</assembly>
+<members>
+<member name="P:topology.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:topology.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:topology.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:topology.cTriangularCartogram.transformTheTransformation(topology.cTriangularCartogram.eTransformationSide,topology.cTriangularNetwork,topology.cTriangularNetwork)">
+	<summary>
+ Modifies the transformation by transforming nodes from the space defined by one TIN to the space defined by another. Two input TINs should have the same topology, and have simple boundaries that match exactly.
+ </summary>
+	<param name="transformSide"></param>
+	<param name="fromTIN"></param>
+	<param name="toTIN"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:topology.cTriangularCartogram.transformCoordinates(topology.cTriangularNetwork,topology.cTriangularNetwork,System.Collections.Generic.List{DotSpatial.Topology.Coordinate},System.Double)">
+	<summary>
+ Transforms coordinates from space defined by one TIN to space defined by another. It is expected that TINs have exactly the same topology. This will be more efficient if input list is sequenced such that successive coordinates are likely to be near each other.
+ </summary>
+	<param name="fromTIN"></param>
+	<param name="toTIN"></param>
+	<param name="coord"></param>
+	<param name="tolerance"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

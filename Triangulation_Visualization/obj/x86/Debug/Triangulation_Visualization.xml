@@ -1,0 +1,329 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Triangulation_Visualization
+</name>
+</assembly>
+<members>
+<member name="P:Triangulation_Visualization.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Triangulation_Visualization.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Triangulation_Visualization.My.Resources.Resources._1334456289_buttons_21">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Triangulation_Visualization.My.Resources.Resources._1334456369_buttons_19">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Triangulation_Visualization.My.Resources.Resources.Actions_go_next_icon_32">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Triangulation_Visualization.My.Resources.Resources.Actions_go_previous_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Triangulation_Visualization.My.Resources.Resources.Actions_go_previous_icon_32">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Triangulation_Visualization.My.Resources.Resources.Actions_zoom_in_icon48">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Triangulation_Visualization.My.Resources.Resources.Actions_zoom_out_icon32">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Triangulation_Visualization.My.Resources.Resources.addLayer">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Triangulation_Visualization.My.Resources.Resources.application_ArcMap">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Triangulation_Visualization.My.Resources.Resources.check">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Triangulation_Visualization.My.Resources.Resources.clearSelection">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Triangulation_Visualization.My.Resources.Resources.CursorArrow">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Triangulation_Visualization.My.Resources.Resources.CursorArrow_small">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Triangulation_Visualization.My.Resources.Resources.fixedZoomIn">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Triangulation_Visualization.My.Resources.Resources.fixedZoomOut">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Triangulation_Visualization.My.Resources.Resources.fixedZoomOut2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Triangulation_Visualization.My.Resources.Resources.hand32">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Triangulation_Visualization.My.Resources.Resources.informationb32">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Triangulation_Visualization.My.Resources.Resources.iron">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Triangulation_Visualization.My.Resources.Resources.line_move_big">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Triangulation_Visualization.My.Resources.Resources.MapLayers_nonCommercial">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Triangulation_Visualization.My.Resources.Resources.movePoint">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Triangulation_Visualization.My.Resources.Resources.Pan">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Triangulation_Visualization.My.Resources.Resources.rectangleTransform">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Triangulation_Visualization.My.Resources.Resources.Regularize_Grid">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Triangulation_Visualization.My.Resources.Resources.SelectEdge">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Triangulation_Visualization.My.Resources.Resources.selectPoint">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Triangulation_Visualization.My.Resources.Resources.selectRectangle">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Triangulation_Visualization.My.Resources.Resources.TriangleSubdivision2_small">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Triangulation_Visualization.My.Resources.Resources.undo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Triangulation_Visualization.My.Resources.Resources.update">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Triangulation_Visualization.My.Resources.Resources.World32">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Triangulation_Visualization.My.Resources.Resources.X">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Triangulation_Visualization.My.Resources.Resources.zoom_in_tool_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Triangulation_Visualization.My.Resources.Resources.zoomIn">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Triangulation_Visualization.My.Resources.Resources.zoomIn1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Triangulation_Visualization.My.Resources.Resources.zoomOut">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Triangulation_Visualization.My.Resources.Resources.zoomToWorld">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:Triangulation_Visualization.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:Triangulation_Visualization.frmLoadPopPolys.obtainTransformationFile">
+	<summary>
+ obtains the file but does not create the transformation
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Triangulation_Visualization.frmLoadPopPolys.makeTransformation">
+	<summary>
+ Loads transformation from existing file or creates a new one depending on what options is selected
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Triangulation_Visualization.ITransformation.HandleMouseDown(DotSpatial.Controls.Map,System.Drawing.PointF)">
+	<summary>
+ Handles the mouse down on the map that the user uses to draw the transformation. The input location is in map units.
+ </summary>
+	<param name="onMap"></param>
+	<param name="loc"></param>
+	<remarks></remarks>
+</member><member name="M:Triangulation_Visualization.cRectangleTransformation.stretchRec(System.Int32,System.Drawing.PointF)">
+	<summary>
+ Stretches rectangle away from previously defined baseline. Source rectangle must already exist.
+ </summary>
+	<param name="RecID"></param>
+	<param name="P"></param>
+	<remarks></remarks>
+</member><member name="M:Triangulation_Visualization.cRectangleTransformation.invertSrcRec">
+	<summary>
+ Reverses the source rectangle coordinate sequence if it is counterclockwise, otherwise leaves it alone. Source rectangle must already exist.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Triangulation_Visualization.cRectangleTransformation.createTargetRec">
+	<summary>
+ Creates target rectangle as exact replica of source rectangle. Source rectangle must already exist, and should already be inverted if necessary.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Triangulation_Visualization.cRectangleTransformation.updateBoundaryRec">
+	<summary>
+ Creates boundary rec by buffering the enclosure around the source and target rectangles by the default percentage. Source and boundary must already be created.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Triangulation_Visualization.cRectangleTransformation.moveTargetRec(System.Drawing.PointF,System.Drawing.PointF)">
+	<summary>
+ Moves the target rectangle by the vector between fromP and toP. Boundary rectangle should typically be updated afterwards. Target and boundary rectangles must already be created.
+ </summary>
+	<param name="toP"></param>
+	<remarks></remarks>
+</member><member name="M:Triangulation_Visualization.cRectangleTransformation.stretchTargetCorner(System.Drawing.PointF)">
+	<summary>
+ Stretches the corner recorded as being selected on the target rectangle to the given input location.
+ </summary>
+	<param name="newLoc"></param>
+	<remarks></remarks>
+</member><member name="M:Triangulation_Visualization.cRectangleTransformation.fillInDCELtable(DotSpatial.Data.FeatureSet@)">
+	<summary>
+ Fills in the LPoly, RPoly, FromNode, ToNode, NextForward and NextBackward fields of the input. Input should be a line shapefile with exactly 28 rows and 6 columns.
+ </summary>
+	<param name="FS"></param>
+	<remarks></remarks>
+</member><member name="M:Triangulation_Visualization.cRectangleTransformation.getTIN_nodes(System.Int32)">
+	<summary>
+ Produces coordinates for the transformation TINs. Input parameter controls whether coordinates are for source TIN (0) or target TIN (1).
+ </summary>
+	<param name="src0trg1"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Triangulation_Visualization.cRectangleTransformation.getTIN_edgeFS(System.Int32)">
+	<summary>
+ Produces geometry features for the transformation TINs. Does not create DCEL table. Input parameter controls whether coordinates are for source TIN (0) or target TIN (1).
+ </summary>
+	<param name="src0trg1"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Triangulation_Visualization.cRectangleTransformation.createPointIndex">
+	<summary>
+ Creates point index from the points in the target and boundary rectangles.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Triangulation_Visualization.cRectangleTransformation.errBase">
+	<summary>
+ Base text for error messages thrown in this class.
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Triangulation_Visualization.cLineTransformation.createTargetLine">
+	<summary>
+ Creates target line feature (i.e. DL(1)) as copy of source line feature (i.e. DL(0))
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Triangulation_Visualization.cLineTransformation.placeFirstPoint(System.Drawing.PointF)">
+	<summary>
+ Creates first point of source line.
+ </summary>
+	<param name="loc"></param>
+	<remarks></remarks>
+</member><member name="M:Triangulation_Visualization.cLineTransformation.moveEndPoint(System.Int32,System.Drawing.PointF,System.Boolean)">
+	<summary>
+ If geometry is valid, moves the given endpoint of the targetLine to the new location. DrawList should have 4 items, with last item being temporary mouse indicator.
+ </summary>
+	<param name="ofPtID"></param>
+	<param name="newLoc"></param>
+	<remarks></remarks>
+</member><member name="M:Triangulation_Visualization.cLineTransformation.moveTargetLine(System.Drawing.PointF,System.Boolean)">
+	<summary>
+ If geometry is valid, moves the target line along the vector from the original mouse down location to the input location.
+ </summary>
+	<param name="mLoc"></param>
+	<param name="advanceState"></param>
+	<remarks></remarks>
+</member><member name="M:Triangulation_Visualization.cLineTransformation.moveBoundary(System.Drawing.PointF,System.Boolean)">
+	<summary>
+ If geometry is valid, moves the given edge of the target line by adjusting the buffer proportion and recreating the object.
+ </summary>
+	<param name="mLoc"></param>
+	<param name="advanceState"></param>
+	<remarks></remarks>
+</member><member name="M:Triangulation_Visualization.cLineTransformation.getTIN_nodes(System.Int32)">
+	<summary>
+ Constructs point features from drawing objects. Three drawing objects must be present.
+ </summary>
+	<param name="src0trg1"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Triangulation_Visualization.cLineTransformation.getTIN_edgeFS(System.Int32)">
+	<summary>
+ Produces geometry features for the transformation TINs. Does not create DCEL table. Input parameter controls whether coordinates are for source TIN (0) or target TIN (1).
+ </summary>
+	<param name="src0trg1"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Triangulation_Visualization.cLineTransformation.fillInDCELtable(DotSpatial.Data.FeatureSet@)">
+	<summary>
+ Fills in the LPoly, RPoly, FromNode, ToNode, NextForward and NextBackward fields of the input. Input should be a line shapefile with exactly 15 rows and 6 columns.
+ </summary>
+	<param name="FS"></param>
+	<remarks></remarks>
+</member><member name="M:Triangulation_Visualization.frmTriangleCartograms.matchingExtent(DotSpatial.Data.Extent,DotSpatial.Controls.Map)">
+	<summary>
+ Calculates the extent on the other map that approximately matches the input extent on the input map.
+ </summary>
+	<param name="origXT"></param>
+	<param name="origMap"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Triangulation_Visualization.frmTriangleCartograms.zoomOtherMapToMatch(DotSpatial.Controls.Map)">
+	<summary>
+ Zooms the other map to match the extent of the current (input) map
+ </summary>
+	<param name="curMap"></param>
+	<remarks></remarks>
+</member><member name="M:Triangulation_Visualization.frmTriangleCartograms.applyCustomTransformation">
+	<summary>
+ Applies a custom transformation to the source grid by back-transforming the given transformation on the target grid. Does not update the map layers or the map itself.
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

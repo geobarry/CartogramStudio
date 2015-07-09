@@ -1,0 +1,145 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+BKUtils
+</name>
+</assembly>
+<members>
+<member name="M:BKUtils.dsUtils.conversion.pointFArray(System.Collections.Generic.IList{DotSpatial.Topology.Coordinate})">
+	<summary>
+ Converts a list of DotSpatial coordinates to an array of system.drawing.pointF structures.
+ </summary>
+	<param name="coordinateList"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BKUtils.dsUtils.conversion.coordinateList(System.Drawing.PointF[])">
+	<summary>
+ Converts an array of system.drawing.pointF structures to a list of DotSpatial coordinates.
+ </summary>
+	<param name="points"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BKUtils.Data.Sorting.sequenceVector(System.Int32)">
+	<summary>
+ Creates an array of integers in sequence from 0 to numElements - 1
+ </summary>
+	<param name="numElements"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BKUtils.Spatial.Geometry.lineSegmentsIntersect(System.Drawing.PointF,System.Drawing.PointF,System.Drawing.PointF,System.Drawing.PointF,System.Boolean,System.Drawing.PointF,System.Double)">
+	<summary>
+ Returns true if two line segments intersect, false otherwise. Checks for endpoint matches, but otherwise precision is low. If intersection has already been computed, provide intersection point to avoid duplicate calculation.
+ </summary>
+	<param name="L1S">Start point of line 1</param>
+	<param name="L1F">Finish point of line 1</param>
+	<param name="L2S">Start point of line 2</param>
+	<param name="L2F">Finish point of line 2</param>
+	<param name="useProvidedIntersectionPoint">Flag indicating whether 'intersectionPoint' parameter should be used or not</param>
+	<param name="intersectionPoint">Intersection point of two input lines, if precalculated</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BKUtils.Spatial.Geometry.pointInPolygon(System.Drawing.PointF,System.Drawing.PointF[])">
+	<summary>
+ Determines if the point P is in the polygon defined by poly. This implementation does not assume that first point is duplicated. 
+ For topological partition, result is guaranteed to be true for no more than one of the polygons in the partition, and true for anywhere in partition (including interior edges) except convex hull. If point is on convex hull, result might be either true or false
+ </summary>
+	<param name="P"></param>
+	<param name="poly"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BKUtils.Spatial.Geometry.triangleArea(System.Drawing.PointF,System.Drawing.PointF,System.Drawing.PointF)">
+	<summary>
+ This is about 2.5 times faster than PolygonArea.
+ </summary>
+	<param name="A"></param>
+	<param name="B"></param>
+	<param name="C"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BKUtils.Spatial.Geometry.polygonCentroid(System.Drawing.PointF[])">
+	<summary>
+ Calculates the geometric centroid of a polygon.
+ </summary>
+	<param name="P">The points defining the polygon. Last point can be duplicated or not, it doesn't matter.</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BKUtils.Spatial.Geometry.pointRightOfLine(System.Drawing.PointF,System.Drawing.PointF,System.Drawing.PointF,System.Boolean)">
+	<summary>
+ Returns true if area of triangle L1-L2-P is positive.
+ </summary>
+	<param name="L1"></param>
+	<param name="L2"></param>
+	<param name="P"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BKUtils.Spatial.Geometry.enclosingRectangle(System.Drawing.PointF[],System.Drawing.PointF[])">
+	<summary>
+ Takes two aligned input rectangles and creates a rectangle enclosing both of them (with no buffer). Input rectangles need not be rectilinear, and and can have 4 points or 5 if first is duplicated.
+ </summary>
+	<param name="rec1"></param>
+	<param name="rec2"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BKUtils.Spatial.Geometry.bufferRectangle(System.Drawing.PointF[],System.Double)">
+	<summary>
+ Creates a copy of the input rectangle buffered by given distance. Input can have four points or five if first point is duplicated. Input does not need to be rectilinear and will be inefficient if it is.
+ </summary>
+	<param name="rec"></param>
+	<param name="bufferDist"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BKUtils.Spatial.Geometry.resizeRectangle(System.Drawing.PointF[],System.Double,System.Int32)">
+	<summary>
+ Creates a new rectangle whose side length(s) are (linear factor) times the input, and whose center and orientation are the same as the input. Depending on resize mode, buffer defined by applying linear factor to: 0=each dimension separately | 1=short dimension | 2=long dimension.
+ </summary>
+	<param name="rec"></param>
+	<param name="linearFactor"></param>
+	<param name="resizeMode"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BKUtils.Spatial.Geometry.stretchCorner(System.Drawing.PointF[],System.Int32,System.Drawing.PointF)">
+	<summary>
+ Creates a new rectangle by stretching the given corner of the input rectangle to the new location, taking the adjacent sides with it. Input does not need to be rectilinear, and can have 4 points or 5 if first point is duplicated.
+ </summary>
+	<param name="rec"></param>
+	<param name="cornerID"></param>
+	<param name="newCornerLoc"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BKUtils.Spatial.Geometry.enclosingTrapezoid(System.Drawing.PointF,System.Drawing.PointF,System.Drawing.PointF,System.Drawing.PointF,System.Boolean,System.Drawing.PointF,System.Boolean)">
+	<summary>
+ Returns a clockwise sequence of points around the two input lines. 
+ </summary>
+	<param name="L1S">Start point of line 1</param>
+	<param name="L1F">Finish point of line 1</param>
+	<param name="L2S">Start point of line 2</param>
+	<param name="L2F">Finish point of line 2</param>
+	<param name="useProvidedIntersectionPoint">Flag indicating whether 'intersectionPoint' parameter should be used or not</param>
+	<param name="intersectionPoint">Intersection point of two input lines, if precalculated</param>
+	<param name="duplicateFirstPoint">If true, result will contain 5 points instead of 4.</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BKUtils.Spatial.Geometry.simplePolyBuffer(System.Drawing.PointF[],System.Double[])">
+	<summary>
+ Creates a simple buffer with sharp corners and the same number of vertices as input polygon. Not very efficient, and behavior will be odd if polygon is not convex.
+ </summary>
+	<param name="convexPoly">The points defining the input polygon, in clockwise order.</param>
+	<param name="bufferDist">A buffer distance for each side. If last point is duplicated on input polygon, this array should have one less element then simplePoly.</param>
+	<remarks></remarks>
+</member><member name="P:BKUtils.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:BKUtils.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:BKUtils.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

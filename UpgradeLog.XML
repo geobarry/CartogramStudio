@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="BK_Master">
+</Property><Property Name="Solution File" Value="C:\Users\bjkronenfeld\Documents\Documents\Programming\BK_Master_VB2010\BK_Master.sln">
+</Property><Property Name="Date" Value="Friday, January 06, 2012">
+</Property><Property Name="Time" Value="12:13 PM">
+</Property></Properties><Event ErrorLevel="0" Project="SpatialIndexing" Source="TwoDTree\SpatialIndexing.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="SpatialIndexing" Source="TwoDTree\SpatialIndexing.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="BK_Utils" Source="SDS Objects\BK_Utils.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="BK_Utils" Source="SDS Objects\BK_Utils.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="DCEL" Source="DCEL\DCEL.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="DCEL" Source="DCEL\DCEL.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ApplicationSet" Source="ApplicationSet\ApplicationSet.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ApplicationSet" Source="ApplicationSet\ApplicationSet.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="CLQ" Source="CLQ\CLQ.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="CLQ" Source="CLQ\CLQ.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="BK_Master.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="BK_Master.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SpatialIndexing" Source="TwoDTree\SpatialIndexing.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="BK_Utils" Source="SDS Objects\BK_Utils.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="DCEL" Source="DCEL\DCEL.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ApplicationSet" Source="ApplicationSet\ApplicationSet.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="CLQ" Source="CLQ\CLQ.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
